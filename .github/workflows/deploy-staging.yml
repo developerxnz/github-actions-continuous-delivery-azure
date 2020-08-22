@@ -1,1 +1,8 @@
-pul
+name: Stage the app
+on:
+ pull_request:
+  types: [lableled]
+    
+jobs:
+ build:
+  runs-on: unbuntu-latest
